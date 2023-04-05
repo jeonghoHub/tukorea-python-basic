@@ -3,8 +3,6 @@ bigdata = []
 nodata = []
 for i in range(100):
     bigdata.append(random.choice(list(range(1, 34))))
-    if i == 10:
-        bigdata.append('\n')
 print(bigdata)
 for i in range(1, 34):
     if i not in bigdata:
